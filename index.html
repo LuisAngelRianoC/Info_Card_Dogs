@@ -31,20 +31,20 @@
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="true" href="#informacion">Informacion</a>
+                            <a class="nav-link active" aria-current="true"  onclick="mostrarContenido('informacion', this)" href="#informacion">Informacion</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Contacto</a>
+                            <a class="nav-link" href="#contacto" onclick="mostrarContenido('contacto', this)">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#cartilla">Cartilla</a>
+                            <a class="nav-link" href="#cartilla" onclick="mostrarContenido('cartilla', this)">Cartilla</a>
                         </li>
                     </ul>
                 </div>
 
 
                 <div class="card-body">
-                    <div id="informacion">
+                    <div id="informacion" style="display: block;">
                         <h5 class="card-title">Hola, Soy Scott.</h5>
                         <a href="https://wa.me/7441767228" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
 
@@ -64,7 +64,7 @@
                             <div class="mb-3">
                                 <label for="Fecha" class="form-label">Fecha Nacimiento:</label>
                                 <input type="text" class="form-control" id="Fecha" placeholder="Fecha Nacimiento"
-                                    value="30/10/12" disabled>
+                                    value="08/04/19" disabled>
                             </div>
 
                             <div class="mb-3">
@@ -88,7 +88,7 @@
                     </div>
 
 
-                    <div id="contacto">
+                    <div id="contacto" style="display: none;">
                         <div class="info-mascota">
                             <div class="mb-3">
                                 <label for="Responsable" class="form-label">Responsable:</label>
@@ -125,40 +125,22 @@
 
 
                     <div id="cartilla" style="display: none;">
-                        <h5 class="card-title">Hola, Soy Scott.</h5>
-                        <a href="#" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
 
-                        <div class="info-mascota">
-                            <div class="mb-3">
-                                <label for="Raza" class="form-label">Raza:</label>
-                                <input type="text" class="form-control" id="Raza" placeholder="Nombre Raza"
-                                    value="Husky Siberiano" disabled>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="Peso" class="form-label">Peso:</label>
-                                <input type="text" class="form-control" id="Peso" placeholder="Peso de Mascota"
-                                    value="30 kg" disabled>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="Fecha" class="form-label">Fecha Nacimiento:</label>
-                                <input type="text" class="form-control" id="Fecha" placeholder="Fecha Nacimiento"
-                                    value="30/10/12" disabled>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="Color" class="form-label">Color:</label>
-                                <input type="text" class="form-control" id="Color" placeholder="Color de Mascota"
-                                    value="Negro c/ Blanco" disabled>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="Peso" class="form-label">Peso:</label>
-                                <input type="text" class="form-control" id="Peso" placeholder="Peso de Mascota"
-                                    value="30 kg" disabled>
-                            </div>
+                        <div class="input-container">
+                            <label for="nombre" class="custom-label">Nombre</label>
+                            <input type="text" id="nombre" class="custom-input" placeholder="Ingrese su nombre">
                         </div>
+                        
+                        <div class="input-container">
+                            <label for="email" class="custom-label">Email</label>
+                            <input type="email" id="email" class="custom-input" placeholder="Ingrese su correo electrónico">
+                        </div>
+                        
+                        <div class="input-container">
+                            <label for="telefono" class="custom-label">Teléfono</label>
+                            <input type="tel" id="telefono" class="custom-input" placeholder="Ingrese su número de teléfono">
+                        </div>
+                        
                     </div>
 
 
@@ -166,6 +148,8 @@
             </div>
         </div>
     </div>
+
+    <script src="js/mostrar-contenido.js"></script>
 </body>
 
 </html>
