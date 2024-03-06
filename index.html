@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/icono.png" />
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>My Pet Info</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="card">
+        <div class="img-content">
+            <div class="contenedor-foto">
+                <img src="img/scott.png" class="img-mascota">
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="true" href="#informacion">Informacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cartilla">Cartilla</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="card-body">
+                    <div id="informacion">
+                        <h5 class="card-title">Hola, Soy Scott.</h5>
+                        <a href="https://wa.me/7441767228" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+
+                        <div class="info-mascota">
+                            <div class="mb-3">
+                                <label for="Raza" class="form-label">Raza:</label>
+                                <input type="text" class="form-control" id="Raza" placeholder="Nombre Raza"
+                                    value="Husky Siberiano" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Peso" class="form-label">Peso:</label>
+                                <input type="text" class="form-control" id="Peso" placeholder="Peso de Mascota"
+                                    value="30 kg" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Fecha" class="form-label">Fecha Nacimiento:</label>
+                                <input type="text" class="form-control" id="Fecha" placeholder="Fecha Nacimiento"
+                                    value="30/10/12" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Color" class="form-label">Color:</label>
+                                <input type="text" class="form-control" id="Color" placeholder="Color de Mascota"
+                                    value="Negro c/ Blanco" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Sexo" class="form-label">Sexo:</label>
+                                <input type="text" class="form-control" id="Sexo" placeholder="Sexo de Mascota"
+                                    value="Macho" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Especie" class="form-label">Especie:</label>
+                                <input type="text" class="form-control" id="Especie" placeholder="Especie de Mascota"
+                                    value="Canino" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="contacto">
+                        <div class="info-mascota">
+                            <div class="mb-3">
+                                <label for="Responsable" class="form-label">Responsable:</label>
+                                <input type="text" class="form-control" id="Responsable" placeholder="Nombre de Responsable"
+                                    value="Luis Angel Riano Calixto" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Telefono" class="form-label">Telefono 1:</label>
+                                <input type="tel" class="form-control" id="Telefono" placeholder="Telefono"
+                                    value="7441767228" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Telefono" class="form-label">Telefono 2:</label>
+                                <input type="tel" class="form-control" id="Telefono" placeholder="Telefono"
+                                    value="7443837119" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Direccion" class="form-label">Direccion:</label>
+                                <input type="email" class="form-control" id="Direccion" placeholder="Direccion"
+                                    value="Av. Picacho, Condominios Picacho, Depto 107. El Coloso. Acapulco, Gro. Mex." disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo:</label>
+                                <input type="email" class="form-control" id="correo" placeholder="Correo"
+                                    value="luisangelriano.c@gmail.com" disabled>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div id="cartilla" style="display: none;">
+                        <h5 class="card-title">Hola, Soy Scott.</h5>
+                        <a href="#" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+
+                        <div class="info-mascota">
+                            <div class="mb-3">
+                                <label for="Raza" class="form-label">Raza:</label>
+                                <input type="text" class="form-control" id="Raza" placeholder="Nombre Raza"
+                                    value="Husky Siberiano" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Peso" class="form-label">Peso:</label>
+                                <input type="text" class="form-control" id="Peso" placeholder="Peso de Mascota"
+                                    value="30 kg" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Fecha" class="form-label">Fecha Nacimiento:</label>
+                                <input type="text" class="form-control" id="Fecha" placeholder="Fecha Nacimiento"
+                                    value="30/10/12" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Color" class="form-label">Color:</label>
+                                <input type="text" class="form-control" id="Color" placeholder="Color de Mascota"
+                                    value="Negro c/ Blanco" disabled>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Peso" class="form-label">Peso:</label>
+                                <input type="text" class="form-control" id="Peso" placeholder="Peso de Mascota"
+                                    value="30 kg" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
