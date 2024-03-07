@@ -50,8 +50,8 @@ function mostrarInformacion(cita) {
         html: `
             <p><strong>Fecha:</strong> ${cita.fecha}</p>
             <p><strong>Veterinaria:</strong> ${cita.veterinaria}</p>
-            <p><strong>Vacuna:</strong> ${cita.vacuna}</p>
-            <p><strong>Diluente:</strong> ${cita.diluente}</p>
+            <p class="vacuna"><strong>Vacuna:</strong> ${cita.vacuna}</p>
+            <p class="diluente"><strong>Diluente:</strong> ${cita.diluente}</p>
             <p><strong>Peso:</strong> ${cita.peso}</p>
             <p><strong>Fecha siguiente:</strong> ${cita['fecha-sig']}</p>
         `,

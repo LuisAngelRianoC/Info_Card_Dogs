@@ -102,6 +102,6 @@ span{
     border-color: #007bff;
 }
 
-.contacto{
-    
+.vacuna, .diluente{
+    text-transform: uppercase;
 }
