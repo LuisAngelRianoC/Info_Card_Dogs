@@ -1,0 +1,25 @@
+[
+    {
+      "nombre": "Scott",
+      "raza": "Husky Siberiano",
+      "peso": 30,
+      "sexo": "Macho",
+      "especie": "Canino",
+      "fecha": "08-04-19",
+      "color": "Negro c/ Blanco",
+      "foto": "img/scott.png",
+      "id": "1",
+      "idResponsable": "1"
+    },
+    {
+        "nombre": "Luna",
+        "raza": "Husky Siberiano",
+        "peso": 20,
+        "sexo": "Hembra",
+        "especie": "Canino",
+        "fecha": "20-04-19",
+        "color": "Gris c/ Blanco",
+        "id": "2",
+        "idResponsable": "1"
+      }
+  ]
