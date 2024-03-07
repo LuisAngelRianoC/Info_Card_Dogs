@@ -20,6 +20,10 @@ body{
     background-color: #efefefab;
 }
 
+.Correo{
+    text-transform: lowercase;
+}
+
 span{
     font-weight: 600;
 }
